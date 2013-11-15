@@ -10,7 +10,7 @@ import org.bukkit.event.player.PlayerQuitEvent;
 public class OnPlayerJoinEvent implements Listener {
 
 	@EventHandler(priority = EventPriority.NORMAL)
-	public void onPlayerQuitEvent(PlayerQuitEvent event) {
+	public void onPlayerJoinEvent(PlayerJoinEvent event) {
 		Player player = event.getPlayer();
 		if(player.getName().contains("satgav")) {
 			player.kickPlayer("Not allowed, lol.");
