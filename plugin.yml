@@ -1,0 +1,7 @@
+name: bbsat
+main: de.dauni.bbsat.Bbsat
+version: 0.0.2
+authors:
+  - Daunilein
+description: 
+load: POSTWORLD
